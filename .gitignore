@@ -1,0 +1,24 @@
+# ---- 密钥与本地配置（绝对不要提交）----
+.env
+*.env
+!.env.example
+
+# ---- 虚拟环境 ----
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# ---- 编辑器 ----
+.vscode/
+.idea/
+
+# ---- 系统 ----
+Thumbs.db
+desktop.ini
+~$*
+
+# ---- 注意 ----
+# out/ 里是评测报告和逐题明细，属于「作品」，建议提交（不要忽略）。
+# 如果语料是公司内部文档，请连同 out/index.json 一起忽略。
+# out/index.json
